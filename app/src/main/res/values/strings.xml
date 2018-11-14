@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Rich Invitations</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="api_base_url">https://api.richhub.in/api/rest/</string>
+
+    <string name="invitation">Invitation</string>
+
+    <string name="aboutus">
+        RICH Invitation is a Digital Invitation Card in the form of Mobile App.
+        \n\nWhether you are planning a Wedding, Celebrating Wedding Anniversary or Birthdays or organizing a musical night, live shows, c
+        orporate events, RICH Invitations helps you to send Awesome and beautiful customized digital invitations to your guests.
+        \n\nA Kind of invitation which is never seen before. With this app both Host and Guest will not miss single detail of the event.
+    </string>
+
+    <string name="developer">
+        Pawan Kumar Upadhyay
+        \nMobile : 9949881025
+        \nEmail : pkupadhyay@gmail.com
+        \nfacebook : facebook.com/DAKSHPawanupadhyay
+        \ntwitther : https://twitter.com/pawanupadhyay
+        \nlinkedin : https://www.linkedin.com/in/pawankumarupadhyay/
+    </string>
+
+    <string name="company">
+        RICHTREE CONSULTANCY SERVICES
+        \nPlot 18, Road 7, Pleasant Park Colony
+        \nHyderguda, Attapur,Hyderabad, Telangana-40,
+        \nIndia. Website : http://richtree.in/
+    </string>
+
+    <string name="call">
+        +91 9949881025
+    </string>
+
+    <string name="email">
+        pkupadhyay@gmail.com
+    </string>
+
+    <string name="back"><![CDATA[<< Back]]></string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+</resources>

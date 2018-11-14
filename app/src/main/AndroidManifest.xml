@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.richtree.richinvitations"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ri_red"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ri_red"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name=".firebaseconfiguration.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".firebaseconfiguration.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".firebaseconfiguration.DeleteTokenService"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBS3FyQ3sKvzMGOsT9tMzuRn1EgbBXwtfM"/>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MInvitationDetails"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Settings"
+            android:label="About Us"/>
+        <activity
+            android:name=".activities.UpdateProfile"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Splash"
+            android:label="Login"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity android:name=".ForgotPassword"/>
+        <activity
+            android:name=".activities.OTPActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Card"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ImageViewActivity"
+            android:label="Wedding Photo"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.WeddingAlbum"
+            android:label="Wedding Photos"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.RichAlbums"
+            android:label="Rich Album"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".Information"
+            android:label="Information"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".AboutUS"
+            android:label="AboutUs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".DeliveryInformation"
+            android:label="Delivery Information"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".PrivacyPolicy"
+            android:label="Privacy Policy"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".TermsAndConditions"
+            android:label="Terms And Conditions"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.RichAlbumDetailView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.FullImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.RegisteredOtpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VideoViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.AlreadyRegisteredActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.YoutubePlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.Location"
+            android:label="Location"
+            android:theme="@style/AppTheme.AppCompat"/>
+        <activity
+            android:name=".activities.ContactUs"
+            android:label="Contact Us"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

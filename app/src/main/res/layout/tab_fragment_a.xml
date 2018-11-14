@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/rich_inviations"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutus"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="#F5F5F5"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#fcfcfc"
+            android:descendantFocusability="afterDescendants">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/pawan_profile"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="@string/developer"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2"
+        android:layout_below="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="#F5F5F5"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#fcfcfc"
+            android:descendantFocusability="afterDescendants">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPED BY: "
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:src="@drawable/richtree"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/image2"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="@string/company"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--<Button
+        android:id="@+id/button"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:text="RATE APP"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="#f20012"/>
+
+    <Button
+        android:layout_below="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="TELL YOUR FRIENDS ABOUT THIS APP"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="#f20012"/>-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

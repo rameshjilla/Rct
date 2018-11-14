@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.richtree.richinvitations.fragments.MLocation">
+
+    <include
+        layout="@layout/activity_event_card"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:textColor="@color/pink"
+        style="@style/text_heading"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview"/>
+
+    <TextView
+        android:id="@+id/location2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview"/>
+
+</LinearLayout>

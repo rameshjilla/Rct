@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1023407965799",
+    "firebase_url": "https://rich-hub.firebaseio.com",
+    "project_id": "rich-hub",
+    "storage_bucket": "rich-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023407965799:android:c31e4ab79fa1e470",
+        "android_client_info": {
+          "package_name": "com.richtree.richinvitations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023407965799-l7v5f337miqc8r3b2v3hs9gvntk302pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.richtree.richinvitations",
+            "certificate_hash": "946d8d915acf280500883c2634f15f019776d6d8"
+          }
+        },
+        {
+          "client_id": "1023407965799-000eoucs0hsdda331krril45o5sf63l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg18Vx0rnuWse73a_UqIkipil7LD9Y7v8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023407965799-000eoucs0hsdda331krril45o5sf63l0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023407965799-at4i7k2tau9srkqd6c1hp15ojatmc3uu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.richtree.richinvitations",
+                "app_store_id": "1421757822"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
