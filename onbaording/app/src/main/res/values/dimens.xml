@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="signin_social_height">60dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+</resources>

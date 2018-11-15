@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "263143426255",
+    "firebase_url": "https://myfirstclap-3bf02.firebaseio.com",
+    "project_id": "myfirstclap-3bf02",
+    "storage_bucket": "myfirstclap-3bf02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263143426255:android:b213f63af99bf38d",
+        "android_client_info": {
+          "package_name": "app.myfirstclap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263143426255-ug9qesfkoib8jgsn4ibq0e8u72bib6i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.myfirstclap",
+            "certificate_hash": "946d8d915acf280500883c2634f15f019776d6d8"
+          }
+        },
+        {
+          "client_id": "263143426255-ej4a1g1v0l0tpesttiinimksdih8ur73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_A4W5RY1zeyyhMvXWym5Y_aLVIgmsVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263143426255-ej4a1g1v0l0tpesttiinimksdih8ur73.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263143426255-b45mbjpkuhvqfnsnnd54g0s4uv7m0aj4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.MyFirstClap"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

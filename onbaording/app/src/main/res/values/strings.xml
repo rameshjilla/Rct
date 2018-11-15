@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">My FirstClap</string>
+    <string name="api_base_url">http://srimaruthienterprises.in/ramesh/mfc/API/</string>
+
+    <string name="facebook_appid">142208503075008</string>
+    <string name="title_profile">Setup Profile</string>
+    <string name="error_empytyfields">Please Fill All The Fields</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_phonenumber">Phone Number</string>
+    <string name="hint_aboutme">About Myself</string>
+    <string name="hint_currentlocation">Current Location</string>
+    <string name="error_fail">Something went wrong please try again later</string>
+    <string name="nav_menu_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">d7Jn87Qrt40j0z4pAEqBsAlSu</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">Obz6Zc8UrZ2M8OQBQh5L4SVnFk9uaCUJ04ZDVXVSremAm3ulCl
+
+</string>
+
+</resources>

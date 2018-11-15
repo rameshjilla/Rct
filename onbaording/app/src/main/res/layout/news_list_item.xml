@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/news_thumbnail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+
+        <TextView
+            android:id="@+id/news_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/news_thumbnail"
+            android:layout_toEndOf="@+id/news_thumbnail"
+            android:gravity="center|left"
+            android:maxLines="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Top 10 cinemaatography news adn rules for every cinematographer"
+            android:textColor="#000"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:id="@+id/news_caption_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/news_thumbnail"
+            android:layout_toEndOf="@+id/news_thumbnail"
+            android:layout_toRightOf="@+id/news_thumbnail"
+            android:gravity="center|top"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Script Writing"
+            android:singleLine="true"
+            android:textColor="@color/news_item_text_link_colour"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/favorites"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\Mfc_Onboarding_branch\Mfc_Onboarding.iml" filepath="E:\Mfc_Onboarding_branch\Mfc_Onboarding.iml" />
+      <module fileurl="file://F:\Mfc_Onboarding\Mfc_Onboarding_branch.iml" filepath="F:\Mfc_Onboarding\Mfc_Onboarding_branch.iml" />
+      <module fileurl="file://F:\Mfc_onboarding\Mfc_Onboarding_branch.iml" filepath="F:\Mfc_onboarding\Mfc_Onboarding_branch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mfc_onboarding.iml" filepath="$PROJECT_DIR$/Mfc_onboarding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adminapplication/adminapplication.iml" filepath="$PROJECT_DIR$/adminapplication/adminapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

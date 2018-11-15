@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+
+
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "app.myfirstclap"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'BASE_URL', '"https://api.wealthstake.com/v1/"'
+            buildConfigField 'String', 'Facebook_AppId', '"142208503075008"'
+            buildConfigField 'String', 'Facebook_AppSecret', '"75508183c85edeb3d69dd346e24b24ce"'
+            buildConfigField 'String', 'Indie_Wire_PageId', '"56936466636"'
+
+
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'Facebook_AppId', '"142208503075008"'
+            buildConfigField 'String', 'Facebook_AppSecret', '"75508183c85edeb3d69dd346e24b24ce"'
+            buildConfigField 'String', 'Indie_Wire_PageId', '"56936466636"'
+
+
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/atomic-auth-0.3.0.jar')
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.google.android.gms:play-services-identity:9.2.0'
+    compile 'com.google.android.gms:play-services-plus:9.2.0'
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.android.gms:play-services-auth:9.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.google.firebase:firebase-core:9.2.0'
+    compile 'com.google.firebase:firebase-messaging:9.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.android.support:design:26.+'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.mlsdev.rximagepicker:library:2.0.0'
+    compile 'org.jdeferred:jdeferred-android-aar:1.2.6'
+    compile 'com.twitter.sdk.android:twitter-core:3.1.1'
+    implementation 'com.budiyev.android:image-loader:2.0.9'
+    compile 'com.theartofdev:fast-image-loader:0.8.+'
+    compile 'com.facebook.fresco:fresco:0.6.1'
+    compile 'com.twitter.sdk.android:tweet-ui:3.1.1'
+    compile 'com.twitter.sdk.android:tweet-composer:3.1.1'
+
+    testCompile 'junit:junit:4.12'
+
+    apply plugin: 'com.google.gms.google-services'
+}
